@@ -32,9 +32,7 @@
     "@apollo/client": "^3.6.0",
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
     "@fortawesome/free-solid-svg-icons": "^6.1.1",
-    "graphql": "^16.4.0",
     "lodash": "^4.17.21",
-    "sirv-cli": "^2.0.2",
-    "svelte-apollo": "^0.5.0"
+    "sirv-cli": "^2.0.2"
   }
 }

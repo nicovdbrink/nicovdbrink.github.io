@@ -14,6 +14,11 @@
     <execution />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="landingspagina-sonja" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -55,6 +60,7 @@
       <workItem from="1660049187075" duration="5680000" />
       <workItem from="1660233046214" duration="1801000" />
       <workItem from="1660299694510" duration="531000" />
+      <workItem from="1660301172271" duration="899000" />
     </task>
     <task id="LOCAL-00001" summary="eerste opzet">
       <created>1660052703610</created>

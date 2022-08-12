@@ -1,13 +1,12 @@
+// @ts-ignore
 import App from './App.svelte';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import {
-	faRocket,
-	faTimes
+	faRocket
 } from '@fortawesome/free-solid-svg-icons';
 
 library.add(
-	faRocket,
-	faTimes
+	faRocket
 )
 
 const app = new App({
