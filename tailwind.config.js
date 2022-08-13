@@ -12,6 +12,9 @@ module.exports = {
       colors: {
         svelte: '#ff3e00',
       },
+      fontSize: {
+        xxs: '.6rem',
+      },
     },
   },
   plugins: [],
