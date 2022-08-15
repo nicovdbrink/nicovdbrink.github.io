@@ -71,7 +71,12 @@
         {
             title: 'Jenkins',
             logo: 'jenkins.png',
-            rating: 60,
+            rating: 50,
+        },
+        {
+            title: 'Docker',
+            logo: 'docker.png',
+            rating: 30,
         },
         {
             title: 'SQL',

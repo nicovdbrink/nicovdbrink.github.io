@@ -4759,7 +4759,7 @@ var app = (function () {
     	return child_ctx;
     }
 
-    // (101:4) {#if inView}
+    // (106:4) {#if inView}
     function create_if_block(ctx) {
     	let each_1_anchor;
     	let current;
@@ -4848,14 +4848,14 @@ var app = (function () {
     		block,
     		id: create_if_block.name,
     		type: "if",
-    		source: "(101:4) {#if inView}",
+    		source: "(106:4) {#if inView}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (102:8) {#each skills as skill, index}
+    // (107:8) {#each skills as skill, index}
     function create_each_block$1(ctx) {
     	let div4;
     	let div0;
@@ -4892,19 +4892,19 @@ var app = (function () {
     			if (!src_url_equal(img.src, img_src_value = "public/images/" + /*skill*/ ctx[3].logo)) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", /*skill*/ ctx[3].logo);
     			attr_dev(img, "loading", "lazy");
-    			add_location(img, file$1, 104, 20, 2319);
-    			add_location(p, file$1, 105, 20, 2433);
+    			add_location(img, file$1, 109, 20, 2425);
+    			add_location(p, file$1, 110, 20, 2539);
     			attr_dev(div0, "class", "flex items-center space-x-4");
-    			add_location(div0, file$1, 103, 16, 2257);
+    			add_location(div0, file$1, 108, 16, 2363);
     			attr_dev(div1, "class", "absolute left-0 w-full h-full bg-gray-100");
-    			add_location(div1, file$1, 108, 20, 2553);
+    			add_location(div1, file$1, 113, 20, 2659);
     			attr_dev(div2, "class", "absolute left-0 h-full bg-blue-600");
     			set_style(div2, "width", /*skill*/ ctx[3].rating + "%");
-    			add_location(div2, file$1, 109, 20, 2635);
+    			add_location(div2, file$1, 114, 20, 2741);
     			attr_dev(div3, "class", "relative self-stretch h-1");
-    			add_location(div3, file$1, 107, 16, 2493);
+    			add_location(div3, file$1, 112, 16, 2599);
     			attr_dev(div4, "class", "space-y-2");
-    			add_location(div4, file$1, 102, 12, 2168);
+    			add_location(div4, file$1, 107, 12, 2274);
     		},
     		m: function mount(target, anchor) {
     			insert_dev(target, div4, anchor);
@@ -4947,7 +4947,7 @@ var app = (function () {
     		block,
     		id: create_each_block$1.name,
     		type: "each",
-    		source: "(102:8) {#each skills as skill, index}",
+    		source: "(107:8) {#each skills as skill, index}",
     		ctx
     	});
 
@@ -4967,7 +4967,7 @@ var app = (function () {
     			if (if_block) if_block.c();
     			attr_dev(div, "class", "flex flex-col space-y-4");
     			toggle_class(div, "min-h-screen", !/*inView*/ ctx[0]);
-    			add_location(div, file$1, 95, 0, 1970);
+    			add_location(div, file$1, 100, 0, 2076);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -5115,7 +5115,12 @@ var app = (function () {
     		{
     			title: 'Jenkins',
     			logo: 'jenkins.png',
-    			rating: 60
+    			rating: 50
+    		},
+    		{
+    			title: 'Docker',
+    			logo: 'docker.png',
+    			rating: 30
     		},
     		{
     			title: 'SQL',
