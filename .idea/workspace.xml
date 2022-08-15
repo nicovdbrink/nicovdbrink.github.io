@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25c16b2e-29d5-43f6-9b4b-8a9350906ab2" name="Changes" comment="quickly display skills">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="25c16b2e-29d5-43f6-9b4b-8a9350906ab2" name="Changes" comment="quickly display skills" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,6 +68,7 @@
       <recent name="$PROJECT_DIR$/public/images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/public/images" />
     </key>
   </component>
@@ -89,6 +88,7 @@
       <workItem from="1660388857165" duration="9945000" />
       <workItem from="1660399469113" duration="11576000" />
       <workItem from="1660424138915" duration="438000" />
+      <workItem from="1660558851091" duration="115000" />
     </task>
     <task id="LOCAL-00001" summary="eerste opzet">
       <created>1660052703610</created>

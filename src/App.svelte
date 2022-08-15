@@ -101,7 +101,7 @@
 <main class="my-8 space-y-8">
     <div class="flex px-4 mx-auto space-x-4 max-w-xl xl:space-x-8">
         <div class="w-72 h-full xl:h-42" transition:fly={{ y: '75%' }}>
-            <img alt="profielfoto" class="h-full rounded-md shadow-xl" loading="lazy" src="images/profielfoto.png">
+            <img alt="profielfoto" class="h-full rounded-md shadow-xl" loading="lazy" src="public/images/profielfoto.png">
         </div>
         <div class="flex flex-wrap content-between tracking-widest">
             <div class="flex flex-col">
