@@ -4,45 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="25c16b2e-29d5-43f6-9b4b-8a9350906ab2" name="Changes" comment="ignore hidden folders">
-      <change afterPath="$PROJECT_DIR$/public/images/angular.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/bitbucket.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/csharp.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/css.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/github.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/graphql.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/html.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/hu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/ichthus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/java.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/javascript.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/jenkins.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/jira.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/laravel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/maxilia.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/profielfoto.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/ravendb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/sql.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/svelte.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/tailwind.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/typescript.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/AboutMe.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Experience.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Hobbies.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Skills.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/transitions.js" afterDir="false" />
+    <list default="true" id="25c16b2e-29d5-43f6-9b4b-8a9350906ab2" name="Changes" comment="quickly display skills">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/build/bundle.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/build/bundle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/build/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/build/bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/build/bundle.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/build/bundle.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ResponseMessage.svelte" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +55,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -125,6 +88,7 @@
       <workItem from="1660301172271" duration="899000" />
       <workItem from="1660388857165" duration="9945000" />
       <workItem from="1660399469113" duration="11576000" />
+      <workItem from="1660424138915" duration="438000" />
     </task>
     <task id="LOCAL-00001" summary="eerste opzet">
       <created>1660052703610</created>
@@ -154,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660337139572</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="quickly display skills">
+      <created>1660424247342</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1660424247342</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -176,6 +147,7 @@
     <MESSAGE value="added responsive design" />
     <MESSAGE value="fixed responsive design" />
     <MESSAGE value="ignore hidden folders" />
-    <option name="LAST_COMMIT_MESSAGE" value="ignore hidden folders" />
+    <MESSAGE value="quickly display skills" />
+    <option name="LAST_COMMIT_MESSAGE" value="quickly display skills" />
   </component>
 </project>
