@@ -949,18 +949,18 @@ var app = (function () {
     			attr_dev(img, "alt", img_alt_value = /*item*/ ctx[0].logo);
     			attr_dev(img, "class", "py-1 w-6 bg-white");
     			attr_dev(img, "loading", "lazy");
-    			if (!src_url_equal(img.src, img_src_value = "images/" + /*item*/ ctx[0].logo)) attr_dev(img, "src", img_src_value);
+    			if (!src_url_equal(img.src, img_src_value = "public/images/" + /*item*/ ctx[0].logo)) attr_dev(img, "src", img_src_value);
     			add_location(img, file$4, 26, 20, 974);
     			attr_dev(div1, "class", "absolute -top-2 -left-3");
     			add_location(div1, file$4, 25, 16, 916);
     			attr_dev(p2, "class", "font-medium text-blue-600");
-    			add_location(p2, file$4, 30, 24, 1230);
+    			add_location(p2, file$4, 30, 24, 1237);
     			attr_dev(div2, "class", "flex items-center space-x-1");
-    			add_location(div2, file$4, 29, 20, 1164);
+    			add_location(div2, file$4, 29, 20, 1171);
     			attr_dev(p3, "class", "whitespace-pre-line");
-    			add_location(p3, file$4, 32, 20, 1354);
+    			add_location(p3, file$4, 32, 20, 1361);
     			attr_dev(div3, "class", "-mt-1.5 space-y-1 relative");
-    			add_location(div3, file$4, 28, 16, 1103);
+    			add_location(div3, file$4, 28, 16, 1110);
     			attr_dev(div4, "class", "flex relative flex-col col-span-3 pl-8 pr-4 pb-8 border-l border-gray-200");
     			add_location(div4, file$4, 24, 12, 812);
     			attr_dev(div5, "class", "grid grid-cols-4 gap-8 w-full xl:w-2/3 pl-4");
@@ -1013,7 +1013,7 @@ var app = (function () {
     				attr_dev(img, "alt", img_alt_value);
     			}
 
-    			if (!current || dirty & /*item*/ 1 && !src_url_equal(img.src, img_src_value = "images/" + /*item*/ ctx[0].logo)) {
+    			if (!current || dirty & /*item*/ 1 && !src_url_equal(img.src, img_src_value = "public/images/" + /*item*/ ctx[0].logo)) {
     				attr_dev(img, "src", img_src_value);
     			}
 
@@ -4889,20 +4889,20 @@ var app = (function () {
     			div2 = element("div");
     			t4 = space();
     			attr_dev(img, "class", "w-6 rounded-sm");
-    			if (!src_url_equal(img.src, img_src_value = "images/" + /*skill*/ ctx[3].logo)) attr_dev(img, "src", img_src_value);
+    			if (!src_url_equal(img.src, img_src_value = "public/images/" + /*skill*/ ctx[3].logo)) attr_dev(img, "src", img_src_value);
     			attr_dev(img, "alt", /*skill*/ ctx[3].logo);
     			attr_dev(img, "loading", "lazy");
-    			add_location(img, file$1, 104, 20, 2320);
-    			add_location(p, file$1, 105, 20, 2427);
+    			add_location(img, file$1, 104, 20, 2319);
+    			add_location(p, file$1, 105, 20, 2433);
     			attr_dev(div0, "class", "flex items-center space-x-4");
-    			add_location(div0, file$1, 103, 16, 2258);
+    			add_location(div0, file$1, 103, 16, 2257);
     			attr_dev(div1, "class", "absolute left-0 w-full h-full bg-gray-100");
-    			add_location(div1, file$1, 108, 20, 2547);
+    			add_location(div1, file$1, 108, 20, 2553);
     			attr_dev(div2, "class", "absolute left-0 h-full bg-blue-600");
     			set_style(div2, "width", /*skill*/ ctx[3].rating + "%");
-    			add_location(div2, file$1, 109, 20, 2629);
+    			add_location(div2, file$1, 109, 20, 2635);
     			attr_dev(div3, "class", "relative self-stretch h-1");
-    			add_location(div3, file$1, 107, 16, 2487);
+    			add_location(div3, file$1, 107, 16, 2493);
     			attr_dev(div4, "class", "space-y-2");
     			add_location(div4, file$1, 102, 12, 2168);
     		},
@@ -4926,14 +4926,14 @@ var app = (function () {
     			if (current) return;
 
     			add_render_callback(() => {
-    				if (!div4_transition) div4_transition = create_bidirectional_transition(div4, fly, { x: '75%', delay: /*index*/ ctx[5] * 100 }, true);
+    				if (!div4_transition) div4_transition = create_bidirectional_transition(div4, fly, { x: '75%', delay: /*index*/ ctx[5] * 50 }, true);
     				div4_transition.run(1);
     			});
 
     			current = true;
     		},
     		o: function outro(local) {
-    			if (!div4_transition) div4_transition = create_bidirectional_transition(div4, fly, { x: '75%', delay: /*index*/ ctx[5] * 100 }, false);
+    			if (!div4_transition) div4_transition = create_bidirectional_transition(div4, fly, { x: '75%', delay: /*index*/ ctx[5] * 50 }, false);
     			div4_transition.run(0);
     			current = false;
     		},
@@ -5419,47 +5419,47 @@ var app = (function () {
     			attr_dev(img, "alt", "profielfoto");
     			attr_dev(img, "class", "h-full rounded-md shadow-xl");
     			attr_dev(img, "loading", "lazy");
-    			if (!src_url_equal(img.src, img_src_value = "images/profielfoto.png")) attr_dev(img, "src", img_src_value);
+    			if (!src_url_equal(img.src, img_src_value = "public/images/profielfoto.png")) attr_dev(img, "src", img_src_value);
     			add_location(img, file, 95, 12, 4114);
     			attr_dev(div0, "class", "w-72 h-full xl:h-42");
     			add_location(div0, file, 94, 8, 4038);
     			attr_dev(h10, "class", "text-blue-700 svelte-17gj6ih");
-    			add_location(h10, file, 99, 16, 4358);
+    			add_location(h10, file, 99, 16, 4365);
     			attr_dev(h2, "class", "font-semibold text-blue-600 svelte-17gj6ih");
-    			add_location(h2, file, 100, 16, 4424);
+    			add_location(h2, file, 100, 16, 4431);
     			attr_dev(div1, "class", "flex flex-col");
-    			add_location(div1, file, 98, 12, 4314);
+    			add_location(div1, file, 98, 12, 4321);
     			attr_dev(a, "href", "mailto:" + /*contactInfo*/ ctx[0].email);
-    			add_location(a, file, 103, 19, 4568);
-    			add_location(p, file, 103, 16, 4565);
+    			add_location(a, file, 103, 19, 4575);
+    			add_location(p, file, 103, 16, 4572);
     			attr_dev(div2, "class", "flex space-x-4");
-    			add_location(div2, file, 102, 12, 4520);
+    			add_location(div2, file, 102, 12, 4527);
     			attr_dev(div3, "class", "flex flex-wrap content-between tracking-widest");
-    			add_location(div3, file, 97, 8, 4241);
+    			add_location(div3, file, 97, 8, 4248);
     			attr_dev(div4, "class", "flex px-4 mx-auto space-x-4 max-w-xl xl:space-x-8");
     			add_location(div4, file, 93, 4, 3966);
     			attr_dev(h11, "class", "text-white svelte-17gj6ih");
-    			add_location(h11, file, 109, 8, 4714);
+    			add_location(h11, file, 109, 8, 4721);
     			attr_dev(div5, "class", "blue-bar svelte-17gj6ih");
-    			add_location(div5, file, 108, 4, 4683);
-    			add_location(div6, file, 111, 4, 4776);
+    			add_location(div5, file, 108, 4, 4690);
+    			add_location(div6, file, 111, 4, 4783);
     			attr_dev(h12, "class", "text-white svelte-17gj6ih");
-    			add_location(h12, file, 118, 8, 4946);
+    			add_location(h12, file, 118, 8, 4953);
     			attr_dev(div7, "class", "blue-bar svelte-17gj6ih");
-    			add_location(div7, file, 117, 4, 4915);
+    			add_location(div7, file, 117, 4, 4922);
     			attr_dev(div8, "class", "pb-4");
-    			add_location(div8, file, 120, 4, 5005);
-    			add_location(hr, file, 126, 4, 5154);
+    			add_location(div8, file, 120, 4, 5012);
+    			add_location(hr, file, 126, 4, 5161);
     			attr_dev(h13, "class", "text-white svelte-17gj6ih");
-    			add_location(h13, file, 131, 12, 5286);
+    			add_location(h13, file, 131, 12, 5293);
     			attr_dev(h14, "class", "text-white svelte-17gj6ih");
-    			add_location(h14, file, 132, 12, 5341);
+    			add_location(h14, file, 132, 12, 5348);
     			attr_dev(div9, "class", "flex justify-between px-4 mx-auto w-full xl:w-1/2");
-    			add_location(div9, file, 130, 8, 5210);
+    			add_location(div9, file, 130, 8, 5217);
     			attr_dev(div10, "class", "blue-bar svelte-17gj6ih");
-    			add_location(div10, file, 129, 4, 5179);
+    			add_location(div10, file, 129, 4, 5186);
     			attr_dev(div11, "class", "flex justify-between px-4 mx-auto w-full xl:w-1/2");
-    			add_location(div11, file, 136, 4, 5416);
+    			add_location(div11, file, 136, 4, 5423);
     			attr_dev(main, "class", "my-8 space-y-8");
     			add_location(main, file, 92, 0, 3932);
     		},
