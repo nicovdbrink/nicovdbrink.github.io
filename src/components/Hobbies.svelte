@@ -37,7 +37,7 @@
     {#if inView}
         {#each hobbies as hobby, index}
             <div class="flex flex-col justify-center items-center w-full"
-                 transition:fly={{ x: '75%', delay: index * 100 }}
+                 transition:fly={{ x: '75%', delay: index * 75 }}
                  class:col-span-2={hobbies.length === (index + 1)}>
                 <Icon name={hobby.icon}/>
                 <p>{hobby.title}</p>

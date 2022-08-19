@@ -105,7 +105,7 @@
 >
     {#if inView}
         {#each skills as skill, index}
-            <div class="space-y-2" transition:fly={{ x: '75%', delay: index * 50 }}>
+            <div class="space-y-2" transition:fly={{ x: '75%', delay: index * 25 }}>
                 <div class="flex items-center space-x-4">
                     <img class="w-6 rounded-sm" src="public/images/{skill.logo}" alt={skill.logo} loading="lazy">
                     <p>{skill.title}</p>

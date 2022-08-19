@@ -9,7 +9,8 @@
     const contactInfo = {
         name: 'Nico van den Brink',
         title: 'Software developer',
-        email: 'nicovdbrink@hotmail.com'
+        email: 'nicovdbrink@hotmail.com',
+        linkedIn: 'https://www.linkedin.com/in/nico-van-den-brink-52b757194/'
     }
 
     const experience = {
@@ -100,16 +101,19 @@
 <Tailwindcss/>
 <main class="my-8 space-y-8">
     <div class="flex px-4 mx-auto space-x-4 max-w-xl xl:space-x-8">
-        <div class="w-72 h-full xl:h-42" transition:fly={{ y: '75%' }}>
+        <div class="w-44 xl:w-72 h-full xl:h-42" transition:fly={{ y: '75%' }}>
             <img alt="profielfoto" class="h-full rounded-md shadow-xl" loading="lazy" src="public/images/profielfoto.png">
         </div>
-        <div class="flex flex-wrap content-between tracking-widest">
+        <div class="flex flex-wrap content-between tracking-wide xl:tracking-widest">
             <div class="flex flex-col">
                 <h1 class="text-blue-700">{contactInfo.name}</h1>
                 <h2 class="font-semibold text-blue-600">{contactInfo.title}</h2>
             </div>
-            <div class="flex space-x-4">
-                <p><a href="mailto:{contactInfo.email}">{contactInfo.email}</a></p>
+            <div class="flex space-x-4 items-end">
+                <button on:click={() => window.open(contactInfo.linkedIn)}>
+                    <img class="h-6 xl:h-8" src="public/images/linkedIn.png" alt="linkedIn">
+                </button>
+                <p class="text-xs xl:text-base"><a href="mailto:{contactInfo.email}">{contactInfo.email}</a></p>
             </div>
         </div>
     </div>
@@ -119,7 +123,7 @@
     </div>
     <div>
         {#each experience.items as item, index}
-            <Experience {item} delay={index * 100}/>
+            <Experience {item} delay={index * 75}/>
         {/each}
     </div>
 
@@ -128,7 +132,7 @@
     </div>
     <div class="pb-4">
         {#each studies.items as item, index}
-            <Experience {item} delay={index * 100}/>
+            <Experience {item} delay={index * 75}/>
         {/each}
     </div>
 

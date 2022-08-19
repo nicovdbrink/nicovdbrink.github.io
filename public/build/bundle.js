@@ -4561,7 +4561,7 @@ var app = (function () {
     			p = element("p");
     			t1 = text(t1_value);
     			t2 = space();
-    			add_location(p, file$2, 42, 16, 1060);
+    			add_location(p, file$2, 42, 16, 1059);
     			attr_dev(div, "class", "flex flex-col justify-center items-center w-full");
     			toggle_class(div, "col-span-2", /*hobbies*/ ctx[1].length === /*index*/ ctx[5] + 1);
     			add_location(div, file$2, 38, 12, 805);
@@ -4581,7 +4581,7 @@ var app = (function () {
     			transition_in(icon.$$.fragment, local);
 
     			add_render_callback(() => {
-    				if (!div_transition) div_transition = create_bidirectional_transition(div, fly, { x: '75%', delay: /*index*/ ctx[5] * 100 }, true);
+    				if (!div_transition) div_transition = create_bidirectional_transition(div, fly, { x: '75%', delay: /*index*/ ctx[5] * 75 }, true);
     				div_transition.run(1);
     			});
 
@@ -4589,7 +4589,7 @@ var app = (function () {
     		},
     		o: function outro(local) {
     			transition_out(icon.$$.fragment, local);
-    			if (!div_transition) div_transition = create_bidirectional_transition(div, fly, { x: '75%', delay: /*index*/ ctx[5] * 100 }, false);
+    			if (!div_transition) div_transition = create_bidirectional_transition(div, fly, { x: '75%', delay: /*index*/ ctx[5] * 75 }, false);
     			div_transition.run(0);
     			current = false;
     		},
@@ -4926,14 +4926,14 @@ var app = (function () {
     			if (current) return;
 
     			add_render_callback(() => {
-    				if (!div4_transition) div4_transition = create_bidirectional_transition(div4, fly, { x: '75%', delay: /*index*/ ctx[5] * 50 }, true);
+    				if (!div4_transition) div4_transition = create_bidirectional_transition(div4, fly, { x: '75%', delay: /*index*/ ctx[5] * 25 }, true);
     				div4_transition.run(1);
     			});
 
     			current = true;
     		},
     		o: function outro(local) {
-    			if (!div4_transition) div4_transition = create_bidirectional_transition(div4, fly, { x: '75%', delay: /*index*/ ctx[5] * 50 }, false);
+    			if (!div4_transition) div4_transition = create_bidirectional_transition(div4, fly, { x: '75%', delay: /*index*/ ctx[5] * 25 }, false);
     			div4_transition.run(0);
     			current = false;
     		},
@@ -5179,27 +5179,27 @@ var app = (function () {
 
     function get_each_context(ctx, list, i) {
     	const child_ctx = ctx.slice();
-    	child_ctx[5] = list[i];
-    	child_ctx[7] = i;
+    	child_ctx[6] = list[i];
+    	child_ctx[8] = i;
     	return child_ctx;
     }
 
     function get_each_context_1(ctx, list, i) {
     	const child_ctx = ctx.slice();
-    	child_ctx[5] = list[i];
-    	child_ctx[7] = i;
+    	child_ctx[6] = list[i];
+    	child_ctx[8] = i;
     	return child_ctx;
     }
 
-    // (113:8) {#each experience.items as item, index}
+    // (117:8) {#each experience.items as item, index}
     function create_each_block_1(ctx) {
     	let experience_1;
     	let current;
 
     	experience_1 = new Experience({
     			props: {
-    				item: /*item*/ ctx[5],
-    				delay: /*index*/ ctx[7] * 100
+    				item: /*item*/ ctx[6],
+    				delay: /*index*/ ctx[8] * 75
     			},
     			$$inline: true
     		});
@@ -5231,22 +5231,22 @@ var app = (function () {
     		block,
     		id: create_each_block_1.name,
     		type: "each",
-    		source: "(113:8) {#each experience.items as item, index}",
+    		source: "(117:8) {#each experience.items as item, index}",
     		ctx
     	});
 
     	return block;
     }
 
-    // (122:8) {#each studies.items as item, index}
+    // (126:8) {#each studies.items as item, index}
     function create_each_block(ctx) {
     	let experience_1;
     	let current;
 
     	experience_1 = new Experience({
     			props: {
-    				item: /*item*/ ctx[5],
-    				delay: /*index*/ ctx[7] * 100
+    				item: /*item*/ ctx[6],
+    				delay: /*index*/ ctx[8] * 75
     			},
     			$$inline: true
     		});
@@ -5278,7 +5278,7 @@ var app = (function () {
     		block,
     		id: create_each_block.name,
     		type: "each",
-    		source: "(122:8) {#each studies.items as item, index}",
+    		source: "(126:8) {#each studies.items as item, index}",
     		ctx
     	});
 
@@ -5291,8 +5291,8 @@ var app = (function () {
     	let main;
     	let div4;
     	let div0;
-    	let img;
-    	let img_src_value;
+    	let img0;
+    	let img0_src_value;
     	let div0_transition;
     	let t1;
     	let div3;
@@ -5302,36 +5302,42 @@ var app = (function () {
     	let h2;
     	let t5;
     	let div2;
+    	let button;
+    	let img1;
+    	let img1_src_value;
+    	let t6;
     	let p;
     	let a;
-    	let t6_value = /*contactInfo*/ ctx[0].email + "";
-    	let t6;
+    	let t7_value = /*contactInfo*/ ctx[0].email + "";
     	let t7;
+    	let t8;
     	let div5;
     	let h11;
-    	let t9;
-    	let div6;
     	let t10;
+    	let div6;
+    	let t11;
     	let div7;
     	let h12;
-    	let t12;
-    	let div8;
     	let t13;
-    	let hr;
+    	let div8;
     	let t14;
-    	let aboutme;
+    	let hr;
     	let t15;
+    	let aboutme;
+    	let t16;
     	let div10;
     	let div9;
     	let h13;
-    	let t17;
+    	let t18;
     	let h14;
-    	let t19;
+    	let t20;
     	let div11;
     	let skills_1;
-    	let t20;
+    	let t21;
     	let hobbies_1;
     	let current;
+    	let mounted;
+    	let dispose;
     	tailwindcss = new Tailwindcss({ $$inline: true });
     	let each_value_1 = /*experience*/ ctx[1].items;
     	validate_each_argument(each_value_1);
@@ -5368,7 +5374,7 @@ var app = (function () {
     			main = element("main");
     			div4 = element("div");
     			div0 = element("div");
-    			img = element("img");
+    			img0 = element("img");
     			t1 = space();
     			div3 = element("div");
     			div1 = element("div");
@@ -5379,94 +5385,103 @@ var app = (function () {
     			h2.textContent = `${/*contactInfo*/ ctx[0].title}`;
     			t5 = space();
     			div2 = element("div");
+    			button = element("button");
+    			img1 = element("img");
+    			t6 = space();
     			p = element("p");
     			a = element("a");
-    			t6 = text(t6_value);
-    			t7 = space();
+    			t7 = text(t7_value);
+    			t8 = space();
     			div5 = element("div");
     			h11 = element("h1");
     			h11.textContent = `${/*experience*/ ctx[1].title}`;
-    			t9 = space();
+    			t10 = space();
     			div6 = element("div");
 
     			for (let i = 0; i < each_blocks_1.length; i += 1) {
     				each_blocks_1[i].c();
     			}
 
-    			t10 = space();
+    			t11 = space();
     			div7 = element("div");
     			h12 = element("h1");
     			h12.textContent = `${/*studies*/ ctx[2].title}`;
-    			t12 = space();
+    			t13 = space();
     			div8 = element("div");
 
     			for (let i = 0; i < each_blocks.length; i += 1) {
     				each_blocks[i].c();
     			}
 
-    			t13 = space();
-    			hr = element("hr");
     			t14 = space();
-    			create_component(aboutme.$$.fragment);
+    			hr = element("hr");
     			t15 = space();
+    			create_component(aboutme.$$.fragment);
+    			t16 = space();
     			div10 = element("div");
     			div9 = element("div");
     			h13 = element("h1");
     			h13.textContent = `${/*skills*/ ctx[3].title}`;
-    			t17 = space();
+    			t18 = space();
     			h14 = element("h1");
     			h14.textContent = `${/*hobbies*/ ctx[4].title}`;
-    			t19 = space();
+    			t20 = space();
     			div11 = element("div");
     			create_component(skills_1.$$.fragment);
-    			t20 = space();
+    			t21 = space();
     			create_component(hobbies_1.$$.fragment);
-    			attr_dev(img, "alt", "profielfoto");
-    			attr_dev(img, "class", "h-full rounded-md shadow-xl");
-    			attr_dev(img, "loading", "lazy");
-    			if (!src_url_equal(img.src, img_src_value = "public/images/profielfoto.png")) attr_dev(img, "src", img_src_value);
-    			add_location(img, file, 95, 12, 4114);
-    			attr_dev(div0, "class", "w-72 h-full xl:h-42");
-    			add_location(div0, file, 94, 8, 4038);
+    			attr_dev(img0, "alt", "profielfoto");
+    			attr_dev(img0, "class", "h-full rounded-md shadow-xl");
+    			attr_dev(img0, "loading", "lazy");
+    			if (!src_url_equal(img0.src, img0_src_value = "public/images/profielfoto.png")) attr_dev(img0, "src", img0_src_value);
+    			add_location(img0, file, 96, 12, 4197);
+    			attr_dev(div0, "class", "w-44 xl:w-72 h-full xl:h-42");
+    			add_location(div0, file, 95, 8, 4113);
     			attr_dev(h10, "class", "text-blue-700 svelte-17gj6ih");
-    			add_location(h10, file, 99, 16, 4365);
+    			add_location(h10, file, 100, 16, 4465);
     			attr_dev(h2, "class", "font-semibold text-blue-600 svelte-17gj6ih");
-    			add_location(h2, file, 100, 16, 4431);
+    			add_location(h2, file, 101, 16, 4531);
     			attr_dev(div1, "class", "flex flex-col");
-    			add_location(div1, file, 98, 12, 4321);
+    			add_location(div1, file, 99, 12, 4421);
+    			attr_dev(img1, "class", "h-6 xl:h-8");
+    			if (!src_url_equal(img1.src, img1_src_value = "public/images/linkedIn.png")) attr_dev(img1, "src", img1_src_value);
+    			attr_dev(img1, "alt", "linkedIn");
+    			add_location(img1, file, 105, 20, 4762);
+    			add_location(button, file, 104, 16, 4682);
     			attr_dev(a, "href", "mailto:" + /*contactInfo*/ ctx[0].email);
-    			add_location(a, file, 103, 19, 4575);
-    			add_location(p, file, 103, 16, 4572);
-    			attr_dev(div2, "class", "flex space-x-4");
-    			add_location(div2, file, 102, 12, 4527);
-    			attr_dev(div3, "class", "flex flex-wrap content-between tracking-widest");
-    			add_location(div3, file, 97, 8, 4248);
+    			add_location(a, file, 107, 48, 4909);
+    			attr_dev(p, "class", "text-xs xl:text-base");
+    			add_location(p, file, 107, 16, 4877);
+    			attr_dev(div2, "class", "flex space-x-4 items-end");
+    			add_location(div2, file, 103, 12, 4627);
+    			attr_dev(div3, "class", "flex flex-wrap content-between tracking-wide xl:tracking-widest");
+    			add_location(div3, file, 98, 8, 4331);
     			attr_dev(div4, "class", "flex px-4 mx-auto space-x-4 max-w-xl xl:space-x-8");
-    			add_location(div4, file, 93, 4, 3966);
+    			add_location(div4, file, 94, 4, 4041);
     			attr_dev(h11, "class", "text-white svelte-17gj6ih");
-    			add_location(h11, file, 109, 8, 4721);
+    			add_location(h11, file, 113, 8, 5055);
     			attr_dev(div5, "class", "blue-bar svelte-17gj6ih");
-    			add_location(div5, file, 108, 4, 4690);
-    			add_location(div6, file, 111, 4, 4783);
+    			add_location(div5, file, 112, 4, 5024);
+    			add_location(div6, file, 115, 4, 5117);
     			attr_dev(h12, "class", "text-white svelte-17gj6ih");
-    			add_location(h12, file, 118, 8, 4953);
+    			add_location(h12, file, 122, 8, 5286);
     			attr_dev(div7, "class", "blue-bar svelte-17gj6ih");
-    			add_location(div7, file, 117, 4, 4922);
+    			add_location(div7, file, 121, 4, 5255);
     			attr_dev(div8, "class", "pb-4");
-    			add_location(div8, file, 120, 4, 5012);
-    			add_location(hr, file, 126, 4, 5161);
+    			add_location(div8, file, 124, 4, 5345);
+    			add_location(hr, file, 130, 4, 5493);
     			attr_dev(h13, "class", "text-white svelte-17gj6ih");
-    			add_location(h13, file, 131, 12, 5293);
+    			add_location(h13, file, 135, 12, 5625);
     			attr_dev(h14, "class", "text-white svelte-17gj6ih");
-    			add_location(h14, file, 132, 12, 5348);
+    			add_location(h14, file, 136, 12, 5680);
     			attr_dev(div9, "class", "flex justify-between px-4 mx-auto w-full xl:w-1/2");
-    			add_location(div9, file, 130, 8, 5217);
+    			add_location(div9, file, 134, 8, 5549);
     			attr_dev(div10, "class", "blue-bar svelte-17gj6ih");
-    			add_location(div10, file, 129, 4, 5186);
+    			add_location(div10, file, 133, 4, 5518);
     			attr_dev(div11, "class", "flex justify-between px-4 mx-auto w-full xl:w-1/2");
-    			add_location(div11, file, 136, 4, 5423);
+    			add_location(div11, file, 140, 4, 5755);
     			attr_dev(main, "class", "my-8 space-y-8");
-    			add_location(main, file, 92, 0, 3932);
+    			add_location(main, file, 93, 0, 4007);
     		},
     		l: function claim(nodes) {
     			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -5477,7 +5492,7 @@ var app = (function () {
     			insert_dev(target, main, anchor);
     			append_dev(main, div4);
     			append_dev(div4, div0);
-    			append_dev(div0, img);
+    			append_dev(div0, img0);
     			append_dev(div4, t1);
     			append_dev(div4, div3);
     			append_dev(div3, div1);
@@ -5486,45 +5501,53 @@ var app = (function () {
     			append_dev(div1, h2);
     			append_dev(div3, t5);
     			append_dev(div3, div2);
+    			append_dev(div2, button);
+    			append_dev(button, img1);
+    			append_dev(div2, t6);
     			append_dev(div2, p);
     			append_dev(p, a);
-    			append_dev(a, t6);
-    			append_dev(main, t7);
+    			append_dev(a, t7);
+    			append_dev(main, t8);
     			append_dev(main, div5);
     			append_dev(div5, h11);
-    			append_dev(main, t9);
+    			append_dev(main, t10);
     			append_dev(main, div6);
 
     			for (let i = 0; i < each_blocks_1.length; i += 1) {
     				each_blocks_1[i].m(div6, null);
     			}
 
-    			append_dev(main, t10);
+    			append_dev(main, t11);
     			append_dev(main, div7);
     			append_dev(div7, h12);
-    			append_dev(main, t12);
+    			append_dev(main, t13);
     			append_dev(main, div8);
 
     			for (let i = 0; i < each_blocks.length; i += 1) {
     				each_blocks[i].m(div8, null);
     			}
 
-    			append_dev(main, t13);
-    			append_dev(main, hr);
     			append_dev(main, t14);
-    			mount_component(aboutme, main, null);
+    			append_dev(main, hr);
     			append_dev(main, t15);
+    			mount_component(aboutme, main, null);
+    			append_dev(main, t16);
     			append_dev(main, div10);
     			append_dev(div10, div9);
     			append_dev(div9, h13);
-    			append_dev(div9, t17);
+    			append_dev(div9, t18);
     			append_dev(div9, h14);
-    			append_dev(main, t19);
+    			append_dev(main, t20);
     			append_dev(main, div11);
     			mount_component(skills_1, div11, null);
-    			append_dev(div11, t20);
+    			append_dev(div11, t21);
     			mount_component(hobbies_1, div11, null);
     			current = true;
+
+    			if (!mounted) {
+    				dispose = listen_dev(button, "click", /*click_handler*/ ctx[5], false, false, false);
+    				mounted = true;
+    			}
     		},
     		p: function update(ctx, [dirty]) {
     			if (dirty & /*experience*/ 2) {
@@ -5636,6 +5659,8 @@ var app = (function () {
     			destroy_component(aboutme);
     			destroy_component(skills_1);
     			destroy_component(hobbies_1);
+    			mounted = false;
+    			dispose();
     		}
     	};
 
@@ -5657,7 +5682,8 @@ var app = (function () {
     	const contactInfo = {
     		name: 'Nico van den Brink',
     		title: 'Software developer',
-    		email: 'nicovdbrink@hotmail.com'
+    		email: 'nicovdbrink@hotmail.com',
+    		linkedIn: 'https://www.linkedin.com/in/nico-van-den-brink-52b757194/'
     	};
 
     	const experience = {
@@ -5732,6 +5758,8 @@ var app = (function () {
     		if (!~writable_props.indexOf(key) && key.slice(0, 2) !== '$$' && key !== 'slot') console.warn(`<App> was created with unknown prop '${key}'`);
     	});
 
+    	const click_handler = () => window.open(contactInfo.linkedIn);
+
     	$$self.$capture_state = () => ({
     		fly,
     		Tailwindcss,
@@ -5746,7 +5774,7 @@ var app = (function () {
     		hobbies
     	});
 
-    	return [contactInfo, experience, studies, skills, hobbies];
+    	return [contactInfo, experience, studies, skills, hobbies, click_handler];
     }
 
     class App extends SvelteComponentDev {
