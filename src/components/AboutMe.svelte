@@ -11,7 +11,7 @@
             'ik ernaar dat iedereen tevreden is met de producten die ik oplever. ' +
             'Ik heb mijn liefde voor programmeren omgevormd in een carrière, waarbij ik veel energie krijg bij ' +
             'de afronding van taken of projecten. Ik zal dan ook elke nieuwe uitdaging met open armen ontvangen, ' +
-            'het liefst doe ik dit in teamverband, waardoor ik en mijn collega’s van elkaar kunnen leren.'
+            'het liefst doe ik dit in teamverband, waardoor mijn collega’s en ik van elkaar kunnen leren.'
     }
 </script>
 

@@ -21,7 +21,7 @@
                 title: 'full-stack developer',
                 place: 'Maxilia',
                 location: 'Rhenen',
-                description: 'Werkzaamheden: herschrijven van interne applicaties, voor inrichting nieuwe klant omgeving en documenteren van gemaakte keuzes en veranderingen.\n\n' +
+                description: 'Werkzaamheden: herschrijven van interne applicaties voor de  inrichting van een nieuwe klant omgeving en documenteren van gemaakte keuzes en veranderingen.\n\n' +
                     'Behaalde resultaten: Interne applicaties opgesplitst in meerdere databases, schrijven en lezen d.m.v. GraphQL.\n\n' +
                     'Gewerkt met: PHP (laravel), HTML, CSS (tailwind), Svelte, Jira, Bitbucket, Gitlab, Docker, GraphQL, MYSQL, PlantUML, SQS en S3.',
                 period: 'nov 2021 - heden',
@@ -44,7 +44,7 @@
                 place: 'Sneleentaxi',
                 location: 'Utrecht',
                 description: 'Werkzaamheden: het oppakken van projecten en bugs op het platform.\n\n' +
-                    'Behaalde resultaten: o.a. een facturatiesysteem gekoppeld met Moneybird, een gamificatie systeem en andere projecten binnen het platform.\n\n' +
+                    'Behaalde resultaten: o.a. een gamificatie systeem, een facturatiesysteem gekoppeld met Moneybird en andere projecten binnen het platform.\n\n' +
                     'Gewerkt met: C#, HTML, SCSS, Angular, Jira, Github, RavenDB, API’s en webhook',
                 period: 'jan 2019 - aug 2020',
                 logo: 'sneleentaxi.png'
@@ -54,7 +54,7 @@
                 title: 'front-end developer',
                 place: 'Sneleentaxi',
                 location: 'Utrecht',
-                description: 'Werkzaamheden: de voorkant van een nieuwe partneromgeving ontwerpen en realiseren in het framework Angular.\n\n' +
+                description: 'Werkzaamheden: de voorkant van een nieuwe partneromgeving ontwerpen en realiseren met het Angular framework.\n\n' +
                     'Behaalde resultaten: Een nieuwe omgeving voor de partners van sneleentaxi, met als eindbeoordeling een 7,8.',
                 period: 'sep 2018 - dec 2018',
                 logo: 'sneleentaxi.png'
