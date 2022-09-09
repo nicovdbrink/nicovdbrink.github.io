@@ -18,13 +18,22 @@
         items: [
             {
                 level: 'medior',
+                title: 'front-end developer',
+                place: 'Codefield',
+                location: 'Utrecht',
+                description: 'Werken aan gave en uitdagende projecten',
+                period: 'okt 2022 - heden',
+                logo: 'codefield.png'
+            },
+            {
+                level: 'medior',
                 title: 'full-stack developer',
                 place: 'Maxilia',
                 location: 'Rhenen',
                 description: 'Werkzaamheden: herschrijven van interne applicaties voor de  inrichting van een nieuwe klant omgeving en documenteren van gemaakte keuzes en veranderingen.\n\n' +
                     'Behaalde resultaten: Interne applicaties opgesplitst in meerdere databases, schrijven en lezen d.m.v. GraphQL.\n\n' +
                     'Gewerkt met: PHP (laravel), HTML, CSS (tailwind), Svelte, Jira, Bitbucket, Gitlab, Docker, GraphQL, MYSQL, PlantUML, SQS en S3.',
-                period: 'nov 2021 - heden',
+                period: 'nov 2021 - sep 2022',
                 logo: 'maxilia.png'
             },
             {

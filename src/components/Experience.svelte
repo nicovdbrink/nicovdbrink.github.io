@@ -22,7 +22,7 @@
                 <p class="whitespace-pre-line">{item.title}</p>
                 <p class="text-xxs xl:text-sm opacity-60">{item.period}</p>
             </div>
-            <div class="flex relative flex-col col-span-3 pl-8 pr-4 pb-8 border-l border-gray-200">
+            <div class="flex relative flex-col col-span-3 pl-8 pr-4 pb-12 border-l border-gray-200">
                 <div class="absolute -top-2 -left-3">
                     <img alt="{item.logo}" class="py-1 w-6 bg-white" loading="lazy" src="public/images/{item.logo}">
                 </div>
